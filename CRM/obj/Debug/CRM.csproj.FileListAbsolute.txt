@@ -1,0 +1,15 @@
+D:\proiect_piu\CRM\bin\Debug\CRM.exe.config
+D:\proiect_piu\CRM\bin\Debug\CRM.exe
+D:\proiect_piu\CRM\bin\Debug\CRM.pdb
+D:\proiect_piu\CRM\obj\Debug\CRM.csproj.AssemblyReference.cache
+D:\proiect_piu\CRM\obj\Debug\CRM.csproj.SuggestedBindingRedirects.cache
+D:\proiect_piu\CRM\obj\Debug\CRM.csproj.CoreCompileInputs.cache
+D:\proiect_piu\CRM\obj\Debug\CRM.exe
+D:\proiect_piu\CRM\obj\Debug\CRM.pdb
+D:\proiect_piu\CRM\bin\Debug\DataStorage.dll
+D:\proiect_piu\CRM\bin\Debug\Models.dll
+D:\proiect_piu\CRM\bin\Debug\DataStorage.pdb
+D:\proiect_piu\CRM\bin\Debug\Models.pdb
+D:\proiect_piu\CRM\obj\Debug\CRM.csproj.CopyComplete
+D:\proiect_piu\CRM\bin\Debug\Utils.dll
+D:\proiect_piu\CRM\bin\Debug\Utils.pdb

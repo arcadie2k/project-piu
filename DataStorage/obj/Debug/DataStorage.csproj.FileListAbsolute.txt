@@ -1,0 +1,11 @@
+D:\proiect_piu\DataStorage\obj\Debug\DataStorage.csproj.AssemblyReference.cache
+D:\proiect_piu\DataStorage\obj\Debug\DataStorage.csproj.CoreCompileInputs.cache
+D:\proiect_piu\DataStorage\bin\Debug\DataStorage.dll
+D:\proiect_piu\DataStorage\bin\Debug\DataStorage.pdb
+D:\proiect_piu\DataStorage\obj\Debug\DataStorage.dll
+D:\proiect_piu\DataStorage\obj\Debug\DataStorage.pdb
+D:\proiect_piu\DataStorage\bin\Debug\Models.dll
+D:\proiect_piu\DataStorage\bin\Debug\Utils.dll
+D:\proiect_piu\DataStorage\bin\Debug\Models.pdb
+D:\proiect_piu\DataStorage\bin\Debug\Utils.pdb
+D:\proiect_piu\DataStorage\obj\Debug\DataStorage.csproj.CopyComplete

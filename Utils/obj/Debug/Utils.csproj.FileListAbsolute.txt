@@ -1,0 +1,6 @@
+D:\proiect_piu\Utils\bin\Debug\Utils.dll
+D:\proiect_piu\Utils\bin\Debug\Utils.pdb
+D:\proiect_piu\Utils\obj\Debug\Utils.csproj.AssemblyReference.cache
+D:\proiect_piu\Utils\obj\Debug\Utils.csproj.CoreCompileInputs.cache
+D:\proiect_piu\Utils\obj\Debug\Utils.dll
+D:\proiect_piu\Utils\obj\Debug\Utils.pdb

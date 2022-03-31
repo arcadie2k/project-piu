@@ -1,0 +1,9 @@
+D:\proiect_piu\Models\bin\Debug\Models.dll
+D:\proiect_piu\Models\bin\Debug\Models.pdb
+D:\proiect_piu\Models\obj\Debug\Models.csproj.AssemblyReference.cache
+D:\proiect_piu\Models\obj\Debug\Models.csproj.CoreCompileInputs.cache
+D:\proiect_piu\Models\obj\Debug\Models.dll
+D:\proiect_piu\Models\obj\Debug\Models.pdb
+D:\proiect_piu\Models\bin\Debug\Utils.dll
+D:\proiect_piu\Models\bin\Debug\Utils.pdb
+D:\proiect_piu\Models\obj\Debug\Models.csproj.CopyComplete
