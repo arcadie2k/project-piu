@@ -9,18 +9,18 @@ namespace CRM
         static void Main(string[] args)
         {
             string client_db = System.Configuration.ConfigurationSettings.AppSettings["client_db"];
-            ClientController clientController = new ClientController(client_db);
+            ClientAdmin clientAdmin = new ClientAdmin(client_db);
 
             string request_db = System.Configuration.ConfigurationSettings.AppSettings["request_db"];
-            RequestController requestController = new RequestController(request_db);
+            RequestAdmin requestAdmin = new RequestAdmin(request_db);
 
             Client newClient = null;
             int clientCount = 0;
-            Client[] clients = clientController.GetClients(out clientCount);
+            Client[] clients = clientAdmin.GetClients(out clientCount);
 
             Request newRequest = null;
             int requestCount = 0;
-            Request[] requests = requestController.GetRequests(out requestCount);
+            Request[] requests = requestAdmin.GetRequests(out requestCount);
 
             string opt;
             do
@@ -64,10 +64,10 @@ namespace CRM
                         break;
 
                     case "SC":
-                        clientController.AddClient(newClient);
+                        clientAdmin.AddClient(newClient);
                         newClient = null;
                         /* Update clients array */
-                        clients = clientController.GetClients(out clientCount);
+                        clients = clientAdmin.GetClients(out clientCount);
                         Console.WriteLine("clientul a fost adaugat in baza de date");
                         break;
 
@@ -88,10 +88,10 @@ namespace CRM
                         break;
 
                     case "SR":
-                        requestController.AddRequest(newRequest);
+                        requestAdmin.AddRequest(newRequest);
                         newRequest = null;
                         /* Update requests array */
-                        requests = requestController.GetRequests(out requestCount);
+                        requests = requestAdmin.GetRequests(out requestCount);
                         Console.WriteLine("cererea a fost adaugata in baza de date");
                         break;
 

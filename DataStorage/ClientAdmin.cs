@@ -4,12 +4,12 @@ using Helpers;
 
 namespace DataStorage
 {
-    public class ClientController
+    public class ClientAdmin
     {
         public const int MAX_CLIENTS = 50;
         private string db_filename;
 
-        public ClientController(string _db_filename)
+        public ClientAdmin(string _db_filename)
         {
             db_filename = _db_filename;
             Stream FS = File.Open(db_filename, FileMode.OpenOrCreate);
@@ -18,7 +18,6 @@ namespace DataStorage
 
         public void AddClient(Client client)
         {
-            client.id = Functions.UUID();
             using (StreamWriter SW = new StreamWriter(db_filename, true))
             {
                 SW.WriteLine(client.formatForSave());

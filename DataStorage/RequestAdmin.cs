@@ -4,12 +4,12 @@ using Helpers;
 
 namespace DataStorage
 {
-    public class RequestController
+    public class RequestAdmin
     {
         public const int MAX_REQUESTS = 50;
         private string db_filename;
 
-        public RequestController(string _db_filename)
+        public RequestAdmin(string _db_filename)
         {
             db_filename = _db_filename;
             Stream FS = File.Open(db_filename, FileMode.OpenOrCreate);
@@ -18,7 +18,6 @@ namespace DataStorage
 
         public void AddRequest(Request request)
         {
-            request.id = Functions.UUID();
             using (StreamWriter SW = new StreamWriter(db_filename, true))
             {
                 SW.WriteLine(request.formatForSave());

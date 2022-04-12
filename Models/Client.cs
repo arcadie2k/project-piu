@@ -5,19 +5,21 @@ namespace Models
 {
     public class Client
     {
-        public string id;
-        public string name;
-        public string surname;
-        public string email;
-        public string phone;
-        public DateTime createdAt = DateTime.Now;
+        public string id { get; private set; }
+        public string name { get; set; }
+        public string surname { get; set; }
+        public string email { get; set; }
+        public string phone { get; set; }
+        public DateTime createdAt { get; private set; }
 
         public Client(string _name, string _surname, string _email, string _phone)
         {
+            id = Functions.UUID();
             name = _name;
             surname = _surname;
             email = _email;
             phone = _phone;
+            createdAt = DateTime.Now;
         }
 
         public Client(string _row)
@@ -28,6 +30,7 @@ namespace Models
             surname = clientFields[2];
             email = clientFields[3];
             phone = clientFields[4];
+            createdAt = Convert.ToDateTime(clientFields[5]);
         }
 
         public string formatForSave()

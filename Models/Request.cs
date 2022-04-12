@@ -5,16 +5,19 @@ namespace Models
 {
     public class Request
     {
-        public string id;
-        public string clientId;
-        public string description;
-        public Client client = null;
-        public DateTime createdAt = DateTime.Now;
+        public string id { get; private set; }
+        public string clientId { get; private set; }
+        public string description { get; set; }
+        public Client client { get; set; }
+        public DateTime createdAt { get; private set; }
 
         public Request(string _clientId, string _description)
         {
+            id = Functions.UUID();
             clientId = _clientId;
             description = _description;
+            createdAt = DateTime.Now;
+            client = null;
         }
 
         public Request(string _row)
@@ -23,6 +26,8 @@ namespace Models
             id = requestFields[0];
             clientId = requestFields[1];
             description = requestFields[2];
+            createdAt = Convert.ToDateTime(requestFields[3]);
+            client = null;
         }
 
         public string formatForSave()

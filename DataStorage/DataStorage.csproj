@@ -41,8 +41,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="RequestController.cs" />
-    <Compile Include="ClientController.cs" />
+    <Compile Include="RequestAdmin.cs" />
+    <Compile Include="ClientAdmin.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
